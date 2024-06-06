@@ -26,7 +26,10 @@ You can either create an EC2 instance on AWS or use your personal laptop to foll
 
 ### Python3
 
-Ensure Python 3 is installed. Most systems come with Python 3 pre-installed.
+```sh
+sudo apt-get update
+sudo apt-get install -y python3-pip apt-transport-https kubectl
+```
 
 ### AWS CLI
 
